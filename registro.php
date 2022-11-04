@@ -22,11 +22,7 @@
 
         if(empty($errores)){
             // Revisar si el usuario existe
-            $query = "SELECT * FROM usuarios WHERE email='{$email}'" ;
-            $result = mysqli_query($db,$query);
-            if($result){
-                $errores[]="El correo que ingreso ya existe";
-            }else{
+            
             
 
 
@@ -46,7 +42,7 @@
             }
             
             
-        }
+        
     }
     }
 
