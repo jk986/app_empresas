@@ -1,7 +1,7 @@
 <?php
 
 function conectarDB(){
-    $db = mysqli_connect('localhost','jdavs','linus0*','appempresas_db');
+    $db = mysqli_connect('us-cdbr-east-06.cleardb.net','bd45478afdce1a','18b3b133','heroku_6c8aeda6b41d475');
 
     if(!$db){
         echo "No se pudo conectar";
